@@ -1,2 +1,2 @@
 # PythonAI-Learning
-Follow my hourney as I improve in AI development
+Follow my journey as I improve in AI development
