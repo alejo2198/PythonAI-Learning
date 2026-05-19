@@ -1,0 +1,14 @@
+# Blocks any virtual environment folder in any subproject
+.venv/
+venv/
+env/
+
+# Blocks PyCharm settings folders for any project
+.idea/
+
+# Blocks all local environment secret files
+.env
+
+# Blocks Python cache files globally
+__pycache__/
+*.pyc
