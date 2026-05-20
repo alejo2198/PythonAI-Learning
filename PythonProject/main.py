@@ -1,6 +1,8 @@
 from langchain.chat_models import init_chat_model
-
-GOOGLE_API_KEY = "AIzaSyDwvbJMhV4sxEc5DOOW4_6X2eojgMI8JPw"
+import os
+from dotenv import load_dotenv
+load_dotenv()
+GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 
 model = init_chat_model(
     model='gemini-3.5-flash',
